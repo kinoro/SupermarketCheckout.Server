@@ -7,4 +7,6 @@ specification, please read TEST_INSTRUCTIONS.pdf
 - Restore NuGet packages
 - Go to menu Test -> Run -> All Tests
 
-
+*** To test using swagger ***
+- Run from Visual Studio (F5)
+- This should automatically browse to Swagger UI, allowing all endpoints to be invoked

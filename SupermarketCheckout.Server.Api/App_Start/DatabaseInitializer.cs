@@ -41,6 +41,24 @@ namespace SupermarketCheckout.Server.Api.App_Start
                 Description = "Tissues",
                 Price = 0.99m
             });
+
+            var discountRepository = new DiscountRepository();
+
+            discountRepository.AddOrUpdate(new Discount
+            {
+                Id = Guid.NewGuid(),
+                ProductSKU = "A99",
+                Quantity = 3,
+                Price = 1.3m
+            });
+
+            discountRepository.AddOrUpdate(new Discount
+            {
+                Id = Guid.NewGuid(),
+                ProductSKU = "B15",
+                Quantity = 2,
+                Price = .45m
+            });
         }
     }
 }

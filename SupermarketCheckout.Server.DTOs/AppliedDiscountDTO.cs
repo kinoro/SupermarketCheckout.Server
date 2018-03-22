@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 
 namespace SupermarketCheckout.Server.DTOs
 {
-    [Serializable]
     public class AppliedDiscountDTO
     {
         public string Description { get; set; }

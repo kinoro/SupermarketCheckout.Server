@@ -7,7 +7,6 @@ using System.Threading.Tasks;
 
 namespace SupermarketCheckout.Server.DTOs
 {
-    [Serializable]
     public class BasketOutDTO
     {
         public List<ProductDTO> Products { get; set; }

@@ -8,7 +8,6 @@ using System.Threading.Tasks;
 
 namespace SupermarketCheckout.Server.DTOs
 {
-    [Serializable]
     public class ProductDTO
     {
         [MinLength(3)]
